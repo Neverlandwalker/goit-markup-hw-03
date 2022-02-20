@@ -59,8 +59,8 @@ ol{
 }
 .logo {
     display: flex inline;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     margin-left: 0px;
     width: 145px;
     height: 31px;
@@ -92,7 +92,9 @@ a{
 }
 .nav-list{
     display: flex;
-    margin: 32px 0px 32px 93px;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 
@@ -121,6 +123,8 @@ a{
 .auth-list{
     display:  flex;
     margin-left: 331px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .auth-nav{   
     width: 134px;
@@ -147,8 +151,8 @@ margin-right: 50px;
     
 }
 .hero-container{
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     display: inline-block;
 
     
@@ -186,7 +190,7 @@ margin-right: 50px;
 }
 .adventeges{
     
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .adventeges-block{
     display: flex;
@@ -253,7 +257,7 @@ margin-right: 50px;
     color: var(--primary-text-color);
 }
 .team-section{
-    margin-top: 94px;
+    padding-top: 94px;
     font-weight: 900;
     font-size: 36px;
     line-height: 1.17;
@@ -278,7 +282,7 @@ color: var(--primary-text-color);
     
 }
 .team-list-elements{
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 94px;
     width: 270px ;
     height: 368px ;
@@ -368,8 +372,8 @@ border-radius: 0px 0px 4px 4px;
     
 }
 .filler-division{
-    margin-top: calc(94px - 35.9px);
-    margin-bottom: 50px;
+    padding-top: calc(94px - 35.9px);
+    padding-bottom: 50px;
 }
 .filler-list {
     display: flex;
@@ -396,7 +400,7 @@ border-radius: 0px 0px 4px 4px;
     cursor: pointer;
 }
 .project-section{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 
 }
 .portfolio-projects{
