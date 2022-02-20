@@ -254,7 +254,6 @@ margin-right: 50px;
 }
 .team-section{
     margin-top: 94px;
-    width: 1600px;
     font-weight: 900;
     font-size: 36px;
     line-height: 1.17;
@@ -364,6 +363,7 @@ border-radius: 0px 0px 4px 4px;
     width: 1230px;
 }
 .header-outline-portfolio{
+    width: 1230px;
     border: 1px solid #ECECEC;
     
 }
