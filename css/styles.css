@@ -146,7 +146,7 @@ margin-right: 50px;
 .hero{
     
     width: 1230px;
-    margin-bottom:calc(94px - 35.91px);
+    padding-bottom:calc(94px - 35.91px);
     background: var(--hero-background-color);
     
 }
