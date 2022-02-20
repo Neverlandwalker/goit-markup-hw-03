@@ -363,10 +363,6 @@ border-radius: 0px 0px 4px 4px;
 .main{
     width: 1230px;
 }
-.header-outline{
-    border: 1px solid #ECECEC;
-    margin-bottom: calc(94px - 35.9px);
-}
 .filler-division{
     margin-bottom: 50px;
 }
