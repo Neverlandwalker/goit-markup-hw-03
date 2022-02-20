@@ -365,9 +365,10 @@ border-radius: 0px 0px 4px 4px;
 }
 .header-outline-portfolio{
     border: 1px solid #ECECEC;
-    margin-bottom: calc(94px - 35.9px);
+    
 }
 .filler-division{
+    margin-top: calc(94px - 35.9px);
     margin-bottom: 50px;
 }
 .filler-list {
