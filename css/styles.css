@@ -24,7 +24,18 @@ background: #ECECEC;
     --portfolio-buttons-background-color:#F5F4FA;
     
 }
-
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
 body {
    
@@ -50,20 +61,12 @@ ol{
     width: 1230px;
 }
 .container{
-    width: 1230px;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px 15px 0px 15px;
-    text-align: center;
-    align-content: center;
 }
 .logo {
-    display: flex inline;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-left: 0px;
-    width: 145px;
-    height: 31px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -82,12 +85,19 @@ li{
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+
+
+}
 .header-division{
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 .container-header{
+    align-items: center;
     display: flex;
 }
 .nav-list{
@@ -144,18 +154,16 @@ margin-right: 50px;
     cursor: pointer;
 }
 .hero{
-    
-    width: 1230px;
-    padding-bottom:calc(94px - 35.91px);
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: var(--hero-background-color);
+    align-content: center;
+    align-items: center;
     
 }
 .hero-container{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    display: inline-block;
 
-    
+     
 }
 .hero-text{
     margin-bottom: 30px;
@@ -188,9 +196,8 @@ margin-right: 50px;
     
 
 }
-.adventeges{
-    
-    padding-bottom: 94px;
+.section{
+    padding: 94px 0;
 }
 .adventeges-block{
     display: flex;
@@ -200,6 +207,9 @@ margin-right: 50px;
 
 .adventeges-block-element{
     margin-left: 30px;
+}
+.adventeges-header-start{
+    
 }
 .adventeges-block-element:first-child{
     margin-left: 0px;
@@ -226,7 +236,7 @@ margin-right: 50px;
 
 .what-we-do{
     
-    
+    padding-top: 0px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -257,7 +267,7 @@ margin-right: 50px;
     color: var(--primary-text-color);
 }
 .team-section{
-    padding-top: 94px;
+    
     font-weight: 900;
     font-size: 36px;
     line-height: 1.17;
@@ -278,24 +288,26 @@ margin-right: 50px;
 color: var(--primary-text-color);
 }
 .team-list{
+    margin-top: 50px;
     display: flex;
     
 }
 .team-list-elements{
-    padding-top: 50px;
-    margin-bottom: 94px;
     width: 270px ;
-    height: 368px ;
     background: #FFFFFF;
-
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-border{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-list-elements:not(:first-child){
     margin-left: 30px;
 }
 .team-header-text{
+    margin-bottom: 10px;
     font-weight: 500 ;
     font-size: 16px;
     line-height: 1.19;
@@ -329,8 +341,7 @@ border-radius: 0px 0px 4px 4px;
     color: var(--logo-span-color);
 }
 .adress{
-    display: flex;
-    justify-content: flex-start;
+ 
 }
 .footer-adress{
     display: inline-flexbox;
@@ -363,11 +374,8 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* Portfolio.html */
-.main{
-    width: 1230px;
-}
+
 .header-outline-portfolio{
-    width: 1230px;
     border: 1px solid #ECECEC;
     
 }
@@ -378,6 +386,8 @@ border-radius: 0px 0px 4px 4px;
 .filler-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+    
 }
 .filler-element:not(:first-child){
     margin-left: 8px;
@@ -410,11 +420,16 @@ border-radius: 0px 0px 4px 4px;
 }
 .projects-element{
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 .projects-element{
     margin-left: 30px;
+}
+.projects-box{
+    border-left: 1px solid #EEEEEE; 
+    border-right: 1px solid #EEEEEE ;
+    border-bottom: 1px solid #EEEEEE;
+    
 }
 .projects-element:nth-child(-n+6){
     margin-bottom: 30px;
@@ -423,9 +438,9 @@ border-radius: 0px 0px 4px 4px;
     margin-left: 0px;
 }
 .projects-img{
-    margin-bottom: 20px;
 }
 .portfolio-header-text{
+    margin: 0px 24px;
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -434,7 +449,7 @@ border-radius: 0px 0px 4px 4px;
     color: var(--primary-text-color);
 }
 .portfolio-text{
-    
+    margin: 0px 24px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
